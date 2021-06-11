@@ -15,9 +15,13 @@ public class BodySceneManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Refresh();
+    }
+
+    public void Refresh()
+    {
         InitMaps();
         InitImageColors();
-      
     }
 
     private void InitImageColors()
