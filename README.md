@@ -14,7 +14,7 @@ There's also a reset button to reset all the body parts to the initial green col
 
 ## Script.
 
-The only script in the project is a scene manager script attached to the manager game object. 3 dictionaries exist in this script: one to store the color configurations as stated in the initial docs; one to store the image components of the various body parts; and one to store the tick count for each body part.
+The only script in the project is a scene manager script attached to the manager game object. Three dictionaries exist in this script: one to store the color configurations as stated in the initial docs; one to store the image components of the various body parts; and one to store the tick count for each body part.
 
 The start function calls the `refresh` function which is publicly accessible and is the same function called by the refresh button. This function initalises all dictionaries. The tick count dictionary has the body part labels as keys and all values are initialised to 0.
 
